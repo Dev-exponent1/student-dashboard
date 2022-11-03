@@ -65,6 +65,79 @@ input:focus {
 .section_padding {
   padding: 120px 0;
 }
+
+.schoolsett {
+  margin: 0 30px;
+  background-color: #068f3f;
+  border-radius: 4px;
+}
+
+.sidebar .logo {
+  margin: 30px;
+  background: #fff;
+  border-radius: 7px;
+  /* padding-bottom: 20px; */
+}
+
+.system-confg {
+  margin-left: 35px;
+  color: gray;
+  font-size: 13px;
+  padding-top: 20px;
+}
+
+.system-confg1 {
+  margin-left: 35px;
+  color: gray;
+  font-size: 13px;
+  padding-top: 35px;
+}
+
+.logo-text {
+  margin-left: 20px;
+  font-weight: 900;
+}
+
+.logo-img {
+  margin-left: 4px;
+}
+
+.li-icon {
+  margin-top: 14px;
+  font-size: 10px;
+}
+.dash-item {
+  color: black;
+}
+
+.schoolsett {
+  margin: 0 30px;
+  background-color: #068f3f;
+  border-radius: 4px;
+}
+nav:hover .try {
+  display: block;
+}
+.required:after {
+  content: ' *';
+  color: red;
+}
+
+.btcr1 {
+  background-color: gray;
+  margin: 0 10px 0 20px;
+}
+
+.table {
+  font-size: 13px;
+}
+
+.actv {
+  color: green;
+  border-radius: 10px;
+  width: 2%;
+  height: 10%;
+}
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   .section_padding {
     padding: 80px 0;
