@@ -8,6 +8,8 @@
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
     <title>School Settings</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+  
     <link rel="icon" href="img/logo.png" type="image/png" />
 
     <link rel="stylesheet" href="css/bootstrap1.min.css" />
@@ -380,27 +382,8 @@
       <div class="white_card_body">
       <div class="QA_section">
       <div class="white_box_tittle list_header">
-        <div class="d-flex mb-2">
-          <p>Show</p>
-          <select name="" id="maxRows">
-           <option value="">10</option>
-           <option value="">25</option>
-           <option value="">100</option>
-           <option value="">500</option>
-          </select>
-          <p>entries</p>
-       </div>
+      
       <div class="box_right d-flex lms_block">
-      <div class="serach_field_2">
-      <div class="search_inner">
-      <form Active="#">
-      <div class="search_field">
-      <input type="text" placeholder="Search content here...">
-      </div>
-      <button type="submit"> <i class="ti-search"></i> </button>
-      </form>
-      </div>
-      </div>
       <div class="add_button ms-2">
         <div class="d-flex mx-2 text-center">
                     
@@ -412,7 +395,7 @@
       </div>
       <div class="QA_table mb_30">
       
-      <table class="table lms_table_active ">
+      <table class="table display" id="table_id">
       <thead>
       <tr>
       <th scope="col">PROJECT</th>
@@ -472,6 +455,246 @@
       <td>25th October, 2020 20:30pm</td>
       <td><i class="fa-solid fa-eye"></i></td>
       </tr>
+      <tr>
+        <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+        <td>Category name</td>
+        <td>Teacher James</td>
+        <td class="text-success">Inprogress</td>
+        <td>25th October, 2020 20:30pm</td>
+        <td><i class="fa-solid fa-eye"></i></td>
+        </tr>
+        <tr>
+        <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+        <td>Category name</td>
+        <td>Teacher James</td>
+        <td class="text-success">Inprogress</td>
+        <td>25th October, 2020 20:30pm</td>
+        <td><i class="fa-solid fa-eye"></i></td>
+        </tr>
+        <tr>
+        <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+        <td>Category name</td>
+        <td>Teacher James</td>
+        <td class="text-success">Inprogress</td>
+        <td>25th October, 2020 20:30pm</td>
+        <td><i class="fa-solid fa-eye"></i></td>
+        </tr>
+        <tr>
+        <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+        <td>Category name</td>
+        <td>Teacher James</td>
+        <td class="text-success">Inprogress</td>
+        <td>25th October, 2020 20:30pm</td>
+        <td><i class="fa-solid fa-eye"></i></td>
+        </tr>
+        <tr>
+        <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+        <td>Category name</td>
+        <td>Teacher James</td>
+        <td class="text-success">Inprogress</td>
+        <td>25th October, 2020 20:30pm</td>
+        <td><i class="fa-solid fa-eye"></i></td>
+        </tr>
+        <tr>
+          <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+          <td>Category name</td>
+          <td>Teacher James</td>
+          <td class="text-success">Inprogress</td>
+          <td>25th October, 2020 20:30pm</td>
+          <td><i class="fa-solid fa-eye"></i></td>
+          </tr>
+          <tr>
+          <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+          <td>Category name</td>
+          <td>Teacher James</td>
+          <td class="text-success">Inprogress</td>
+          <td>25th October, 2020 20:30pm</td>
+          <td><i class="fa-solid fa-eye"></i></td>
+          </tr>
+          <tr>
+          <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+          <td>Category name</td>
+          <td>Teacher James</td>
+          <td class="text-success">Inprogress</td>
+          <td>25th October, 2020 20:30pm</td>
+          <td><i class="fa-solid fa-eye"></i></td>
+          </tr>
+          <tr>
+          <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+          <td>Category name</td>
+          <td>Teacher James</td>
+          <td class="text-success">Inprogress</td>
+          <td>25th October, 2020 20:30pm</td>
+          <td><i class="fa-solid fa-eye"></i></td>
+          </tr>
+          <tr>
+          <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+          <td>Category name</td>
+          <td>Teacher James</td>
+          <td class="text-success">Inprogress</td>
+          <td>25th October, 2020 20:30pm</td>
+          <td><i class="fa-solid fa-eye"></i></td>
+          </tr>
+          <tr>
+            <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+            <td>Category name</td>
+            <td>Teacher James</td>
+            <td class="text-success">Inprogress</td>
+            <td>25th October, 2020 20:30pm</td>
+            <td><i class="fa-solid fa-eye"></i></td>
+            </tr>
+            <tr>
+            <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+            <td>Category name</td>
+            <td>Teacher James</td>
+            <td class="text-success">Inprogress</td>
+            <td>25th October, 2020 20:30pm</td>
+            <td><i class="fa-solid fa-eye"></i></td>
+            </tr>
+            <tr>
+            <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+            <td>Category name</td>
+            <td>Teacher James</td>
+            <td class="text-success">Inprogress</td>
+            <td>25th October, 2020 20:30pm</td>
+            <td><i class="fa-solid fa-eye"></i></td>
+            </tr>
+            <tr>
+            <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+            <td>Category name</td>
+            <td>Teacher James</td>
+            <td class="text-success">Inprogress</td>
+            <td>25th October, 2020 20:30pm</td>
+            <td><i class="fa-solid fa-eye"></i></td>
+            </tr>
+            <tr>
+            <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+            <td>Category name</td>
+            <td>Teacher James</td>
+            <td class="text-success">Inprogress</td>
+            <td>25th October, 2020 20:30pm</td>
+            <td><i class="fa-solid fa-eye"></i></td>
+            </tr>
+            <tr>
+              <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+              <td>Category name</td>
+              <td>Teacher James</td>
+              <td class="text-success">Inprogress</td>
+              <td>25th October, 2020 20:30pm</td>
+              <td><i class="fa-solid fa-eye"></i></td>
+              </tr>
+              <tr>
+              <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+              <td>Category name</td>
+              <td>Teacher James</td>
+              <td class="text-success">Inprogress</td>
+              <td>25th October, 2020 20:30pm</td>
+              <td><i class="fa-solid fa-eye"></i></td>
+              </tr>
+              <tr>
+              <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+              <td>Category name</td>
+              <td>Teacher James</td>
+              <td class="text-success">Inprogress</td>
+              <td>25th October, 2020 20:30pm</td>
+              <td><i class="fa-solid fa-eye"></i></td>
+              </tr>
+              <tr>
+              <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+              <td>Category name</td>
+              <td>Teacher James</td>
+              <td class="text-success">Inprogress</td>
+              <td>25th October, 2020 20:30pm</td>
+              <td><i class="fa-solid fa-eye"></i></td>
+              </tr>
+              <tr>
+              <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+              <td>Category name</td>
+              <td>Teacher James</td>
+              <td class="text-success">Inprogress</td>
+              <td>25th October, 2020 20:30pm</td>
+              <td><i class="fa-solid fa-eye"></i></td>
+              </tr>
+              <tr>
+                <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+                <td>Category name</td>
+                <td>Teacher James</td>
+                <td class="text-success">Inprogress</td>
+                <td>25th October, 2020 20:30pm</td>
+                <td><i class="fa-solid fa-eye"></i></td>
+                </tr>
+                <tr>
+                <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+                <td>Category name</td>
+                <td>Teacher James</td>
+                <td class="text-success">Inprogress</td>
+                <td>25th October, 2020 20:30pm</td>
+                <td><i class="fa-solid fa-eye"></i></td>
+                </tr>
+                <tr>
+                <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+                <td>Category name</td>
+                <td>Teacher James</td>
+                <td class="text-success">Inprogress</td>
+                <td>25th October, 2020 20:30pm</td>
+                <td><i class="fa-solid fa-eye"></i></td>
+                </tr>
+                <tr>
+                <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+                <td>Category name</td>
+                <td>Teacher James</td>
+                <td class="text-success">Inprogress</td>
+                <td>25th October, 2020 20:30pm</td>
+                <td><i class="fa-solid fa-eye"></i></td>
+                </tr>
+                <tr>
+                <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+                <td>Category name</td>
+                <td>Teacher James</td>
+                <td class="text-success">Inprogress</td>
+                <td>25th October, 2020 20:30pm</td>
+                <td><i class="fa-solid fa-eye"></i></td>
+                </tr>
+                <tr>
+                  <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+                  <td>Category name</td>
+                  <td>Teacher James</td>
+                  <td class="text-success">Inprogress</td>
+                  <td>25th October, 2020 20:30pm</td>
+                  <td><i class="fa-solid fa-eye"></i></td>
+                  </tr>
+                  <tr>
+                  <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+                  <td>Category name</td>
+                  <td>Teacher James</td>
+                  <td class="text-success">Inprogress</td>
+                  <td>25th October, 2020 20:30pm</td>
+                  <td><i class="fa-solid fa-eye"></i></td>
+                  </tr>
+                  <tr>
+                  <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+                  <td>Category name</td>
+                  <td>Teacher James</td>
+                  <td class="text-success">Inprogress</td>
+                  <td>25th October, 2020 20:30pm</td>
+                  <td><i class="fa-solid fa-eye"></i></td>
+                  </tr>
+                  <tr>
+                  <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+                  <td>Category name</td>
+                  <td>Teacher James</td>
+                  <td class="text-success">Inprogress</td>
+                  <td>25th October, 2020 20:30pm</td>
+                  <td><i class="fa-solid fa-eye"></i></td>
+                  </tr>
+                  <tr>
+                  <th scope="row"> <a href="#" class="question_content"> title here 1</a></th>
+                  <td>Category name</td>
+                  <td>Teacher James</td>
+                  <td class="text-success">Inprogress</td>
+                  <td>25th October, 2020 20:30pm</td>
+                  <td><i class="fa-solid fa-eye"></i></td>
+                  </tr>
       </tbody>
       </table>
       </div>
@@ -680,13 +903,14 @@
     <script src="vendors/chart_am/kelly.js"></script>
     <script src="vendors/chart_am/chart-custom.js"></script>
 
-    <script src="js/custom.js"></script>
-    <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+   
   </body>
+  <script src="js/custom.js"></script>
+  <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
 <script>
-   $(document).ready(function(){
-    $("#mytable").DataTable();
-   });
+  $(document).ready(function () {
+  $('#table_id').DataTable();
+});
 </script>
   <!-- Mirrored from demo.dashboardpack.com/marketing-html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 27 Oct 2022 10:28:52 GMT -->
 </html>
