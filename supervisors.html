@@ -7,7 +7,9 @@
       name="viewport"
       content="width=device-width, initial-scale=1, shrink-to-fit=no"
     />
-    <title>Department-CORASS</title>
+    <title>Supervisor -CORASS</title>
+    <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.12.1/css/jquery.dataTables.css">
+  
     <link rel="icon" href="img/logo.png" type="image/png" />
 
     <link rel="stylesheet" href="css/bootstrap1.min.css" />
@@ -100,7 +102,6 @@
                         <li class="d-flex"><i class="fa-solid fa-cash-register li-icon"></i>
                           <a href="paymentplan.html">Payment Plans</a></li>
             </ul>
-          
         </li>
         <li class="">
           <a class="has-arrow" href="#" aria-expanded="false">
@@ -148,15 +149,15 @@
             <li class="d-flex"><i class="fa-sharp fa-solid fa-credit-card li-icon"></i>
               <a href="payment_requery.html">Payment Requery</a></li>
               <li class="d-flex"><i class="fa-sharp fa-solid fa-credit-card li-icon"></i>
-                <a href="payment_swap.html">Payment Swap</a></li>
+                <a href="payment_requery.html">Payment Swap</a></li>
           </ul>
         </li>
         <div class="d-flex mt-3" style="margin-left: 20px;">
             
-          <img src="img/book icon.png" style="width: 20px; margin: 0 30px 0 8px" class="img-fluid" alt="" />
-        
-        <a href="research_library.html" class="dash-item">Research Library</a>
-    </div>
+              <img src="img/book icon.png" style="width: 20px; margin: 0 30px 0 8px" class="img-fluid" alt="" />
+            
+            <a href="research_library.html" class="dash-item">Research Library</a>
+        </div>
     </nav>
 
     <section class="main_content dashboard_part large_header_bg">
@@ -219,103 +220,118 @@
 
 
       <!-- Main body starts here -->
-      
+
       <div class="container-fluid p-0">
         <div class="row">
             <div class="white_card">
               <div class="white_card_header">
-                    <h6 class="m-0 text-dark">Department</h6>
-                    <p>To create or upload a new Department, click on the corresponding action button below.</p>
+                    <h6 class="m-0 text-dark">Supervisor</h6>
+                   <p>To create or upload a new supervisor, click on the corresponding action button below.</p>
                 </div>
             </div>
           </div>
       </div>
-
       
-      <div class="main_content_iner">
-        
-        <div class="container-fluid p-0">
-          <div class="row">
-            <div class="col-lg-12">
-              <div class="white_card card_height_100 mb_30 QA_section">
-                 <div class="pt-3">
-                    <button class="btn btcr1" >Create New</button>
-                    <button class="btn btn-success btcr2">Batch Upload</button>
-                </div>
-                <div  class="table-responsive">
-                    <table class="table">
-                        <th class="tablehd">
-                            <tr class="px-2" style="background-color: rgba(128, 128, 128, 0.363);">
-                                <th>DEPARTMENT</th>
-                                <th>INSTITUTE</th>
-                                <th>DATA UPLOADED</th>
-                                <th>STATUS</th>
-                                <th>ACTIONS</th>
-                            </tr>
-                        </th>
-                        <tbody>
-                            <tr>
-                                <td>Science Laboratory Technology (SLT)</td>
-                                <td>Institute of Applied Science (IAS)</td>
-                                <td>9th March, 2022 10:00am</td>
-                                <td class="actv"><strong>Active</strong></td>
-                                <td>
-                                    <i class="fa-regular fa-pen-to-square"></i>
-                                    <i class="fa-regular fa-circle-xmark mx-3"></i>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Hospitality Management (HTM)</td>
-                                <td>Institute of Applied Science (IAS)</td>
-                                <td>9th March, 2022 10:00am</td>
-                                <td class="actv"><strong>Active</strong></td>
-                                <td>
-                                    <i class="fa-regular fa-pen-to-square"></i>
-                                    <i class="fa-regular fa-circle-xmark mx-3"></i>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Leisure and Tourism Management (LTM)</td>
-                                <td>Institute of Applied Science (IAS)</td>
-                                <td>9th March, 2022 10:00am</td>
-                                <td class="actv"><strong>Active</strong></td>
-                                <td>
-                                    <i class="fa-regular fa-pen-to-square"></i>
-                                    <i class="fa-regular fa-circle-xmark mx-3"></i>
-                                </td>
-                            </tr>
-                            <tr>
-                                <td>Agricultural Technology (ATM)</td>
-                                <td>Institute of Applied Science (IAS)</td>
-                                <td>9th March, 2022 10:00am</td>
-                                <td class="actv"><strong>Active</strong></td>
-                                <td>
-                                    <i class="fa-regular fa-pen-to-square"></i>
-                                    <i class="fa-regular fa-circle-xmark mx-3"></i>
-                                </td>
-                            </tr>
-
-                            <tr>
-                                <td>Statistics (STA)</td>
-                                <td>Institute of Applied Science (IAS)</td>
-                                <td>9th March, 2022 10:00am</td>
-                                <td class="actv"><strong>Active</strong></td>
-                                <td>
-                                    <i class="fa-regular fa-pen-to-square"></i>
-                                    <i class="fa-regular fa-circle-xmark mx-3"></i>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
-              </div>
-            </div>
-
-
-            
-          </div>
-        </div>
+      <div class="main_content_iner">    
+    <div class="container-fluid p-0 my-4">
+      <div class="row justify-content-center">
+      <div class="col-lg-12">
+      <div class="white_card card_height_100 mb_30">
+      <div class="white_card_header">
+      <div class="box_header m-0">
       </div>
+      </div>
+      <div class="white_card_body">
+      <div class="QA_section">
+      <div class="white_box_tittle list_header">
+      
+      <div class="box_right d-flex lms_block">
+      <div class="add_button ms-2">
+       <div class="pt-3">
+        <button class="btn btcr1" >Create Supervisor</button>
+        <button class="btn btn-success btcr2">Batch Upload</button>
+    </div>
+      </div>
+      </div>
+      </div>
+      <div class="QA_table mb_30 table-responsive">
+      
+      <table class="table display table" id="table_id">
+      <thead>
+      <tr>
+      <th scope="col">SUPERVISOR</th>  
+      <th scope="col">DEPARTMENT</th>
+      <th scope="col">DATE UPLOADED</th>
+      <th scope="col">STATUS</th>
+      <th scope="col">ACTIONS</th>
+      </tr>
+      </thead>
+      <tbody>
+        <tr >
+          <td class="text-dark">CORASS CORASS <br><span>CMO/P/1000</span></td>
+          <td class="text-dark">Agricultural and Bio-Environmental Engineering Technology</td>
+          <td class="text-dark">9th March, 2022 10:00am</td>
+          <td><strong>Active</strong></td>
+          <td class="text-dark d-flex">
+              <i class="fa-regular fa-pen-to-square"></i>
+              <i class="fa-regular fa-circle-xmark mx-3"></i>
+          </td>
+      </tr>
+      <tr>
+        <td class="text-dark">JAMIU WASIU <br><span>REG/P/2602</span></td>
+        <td class="text-dark">Science Laboratory Technology</td>
+        <td class="text-dark">9th March, 2022 10:00am</td>
+        <td><strong>Active</strong></td>
+        <td class="text-dark d-flex">
+            <i class="fa-regular fa-pen-to-square"></i>
+            <i class="fa-regular fa-circle-xmark mx-3"></i>
+        </td>
+    </tr>
+    <tr>
+      <td class="text-dark">CORASS CORASS <br><span>CMO/P/1000</span></td>
+        <td class="text-dark">Science Laboratory Technology</td>
+        <td class="text-dark">9th March, 2022 10:00am</td>
+        <td><strong>Active</strong></td>
+        <td class="text-dark d-flex">
+            <i class="fa-regular fa-pen-to-square"></i>
+            <i class="fa-regular fa-circle-xmark mx-3"></i>
+        </td>
+    </tr>
+    <tr>
+        <td class="text-dark">JAMIU WASIU <br><span>REG/P/2602</span></td>
+        <td class="text-dark">Science Laboratory Technology</td>
+        <td class="text-dark">9th March, 2022 10:00am</td>
+        <td><strong>Active</strong></td>
+        <td class="text-dark d-flex">
+            <i class="fa-regular fa-pen-to-square"></i>
+            <i class="fa-regular fa-circle-xmark mx-3"></i>
+        </td>
+    </tr>
+
+    <tr>
+      <td class="text-dark">JAMIU WASIU <br><span>REG/P/2602</span></td>
+        <td class="text-dark">Science Laboratory Technology</td>
+        <td class="text-dark">9th March, 2022 10:00am</td>
+        <td><strong>Active</strong></td>
+        <td class="text-dark d-flex">
+            <i class="fa-regular fa-pen-to-square"></i>
+            <i class="fa-regular fa-circle-xmark mx-3"></i>
+        </td>
+    </tr>
+      </tbody>
+      </table>
+      </div>
+      </div>
+      </div>
+      </div>
+      </div>
+      <div class="col-12">
+      </div>
+      </div>
+      </div>
+    
+      </div>
+
 
       <footer class="footer footer-light  footer-static  footer1">
         <p class="clearfix mb-0">
@@ -510,8 +526,14 @@
     <script src="vendors/chart_am/kelly.js"></script>
     <script src="vendors/chart_am/chart-custom.js"></script>
 
-    <script src="js/custom.js"></script>
+   
   </body>
-
+  <script src="js/custom.js"></script>
+  <script src="https://cdn.datatables.net/1.12.1/js/jquery.dataTables.min.js"></script>
+<script>
+  $(document).ready(function () {
+  $('#table_id').DataTable();
+});
+</script>
   <!-- Mirrored from demo.dashboardpack.com/marketing-html/index.html by HTTrack Website Copier/3.x [XR&CO'2014], Thu, 27 Oct 2022 10:28:52 GMT -->
 </html>
